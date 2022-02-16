@@ -24,15 +24,16 @@ a {
     font-size: 24px;
     font-weight: 700;
 }
-header, h4 {
+header, h2 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     vertical-align: middle;
 }
 header {
-    padding-top: 70vh;
+    padding-top: 65vh;
     font-size: 72px;
+    padding-bottom: 5vh;
 }
 button {     
     background-color: Transparent;
