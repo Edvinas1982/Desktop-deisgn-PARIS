@@ -1,60 +1,61 @@
-body {
-    min-height: 100vh;
-    width: 100%;
-    max-width: 1140px;
-    margin: auto;
-    background-image: url(tower.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 980px;
-    font-family: 'Montserrat', sans-serif;
+* {
+    outline: solid 1px red;
+    font-family: "Montserrat", sans-serif;
 }
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    font-size: 16px;
-    height: 40px; 
-    align-items: center;
+    width: 100%;
+    max-width: 1134px;
+    margin: 0 auto;
+    padding: 0 12px;
 }
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 10px;
-}
-.navigation a:hover {
-    opacity: 0.7;
-}
-.travelcream {
-    font-size: 24px;
-    font-weight: 700;
-}
-header, h2 {
-    color: white;
-    text-align: center;
-    vertical-align: middle;
+.hero {
+    background-image: url("tower.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
 }
 header {
-    padding-top: 65vh;
-    font-size: 72px;
-    padding-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.login {   
-    display: inline-block;  
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: solid 1px rgb(190, 189, 189);
-    border-radius: 5px;
-    cursor:pointer;
-    overflow: hidden;
-    color: white;  
-    padding: 10px 37px;
-    height: fit-content;
+.login {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 36px;
+    line-height: 26px;
     font-weight: 500;
+    text-decoration: none;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #fff;
     transition: all ease 0.3s;
 }
 .login:hover {
-    background-color: rgb(253, 253, 253);
-    color: rgb(32, 36, 48);
+    background-color: #fff;
+    color: #1c2230;
+}
+.travelcream {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 13px;
+    text-decoration: none;
+}
+.header_left {
+    display: flex;
+}
+nav a {
+    margin-top: 1px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 13px;
+    text-transform: capitalize;
+    transition: all ease 0.3s;
 }
