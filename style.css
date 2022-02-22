@@ -59,3 +59,28 @@ nav a {
     text-transform: capitalize;
     transition: all ease 0.3s;
 }
+nav a:hover {
+    opacity: 0.7;
+}
+.main_title {
+    color: #fff;
+    text-align: center;
+    margin-top: 32vh;
+}
+.main_title h1 {
+    font-size: 72px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.main_title h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.top_menu {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+.top_menu_left {
+    display: flex;
+}
