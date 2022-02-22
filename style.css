@@ -76,6 +76,7 @@ nav a:hover {
     font-size: 30px;
     font-weight: 400;
 }
+/* Antra dalis */
 .top_menu {
     display: inline-block;
     display: flex;
@@ -91,11 +92,33 @@ nav a:hover {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
+} 
+.distance {
+    margin-left: 27px;
+}
+.top_menu_left :hover {
+    color: #FF4B64;
 }
 .km_wifi {
     display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #9A9A9A;
 }
 .six_blocks {
     display: flex; 
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+h6 {
+    margin: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.jumbo {
+    margin-top: 8vh;
 }
