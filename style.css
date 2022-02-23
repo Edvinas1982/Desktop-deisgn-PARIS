@@ -1,5 +1,5 @@
 * {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     font-family: "Montserrat", sans-serif;
 }
 .container {
@@ -9,7 +9,7 @@
     padding: 0 12px;
 }
 .hero {
-    background-image: url("tower.jpg");
+    background-image: url("img/tower.jpg");
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,6 +81,7 @@ nav a:hover {
     display: inline-block;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10vh;
 }
 .top_menu_right {
     font-size: 30px;
@@ -121,4 +122,26 @@ h6 {
 }
 .jumbo {
     margin-top: 8vh;
+}
+.accept_offer {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 36px;
+    line-height: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    border: solid 2px #FF4B64;
+    border-radius: 5px;
+    color: #FF4B64;
+    transition: all ease 0.3s;
+    margin: 5px 0px 25px 15px;
+}
+.accept_offer:hover {
+    background-color: #FF4B64;
+    color: #ffffff;
+}
+.block {
+    border: 1px solid #ebe2e2;
+    margin-bottom: 4vh;
+    width: 31%;
 }
