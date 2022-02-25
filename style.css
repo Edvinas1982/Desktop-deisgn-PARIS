@@ -78,27 +78,48 @@ nav a:hover {
 }
 /* Antra dalis */
 .top_menu {
-    display: inline-block;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 9vh;
+    align-items: baseline;
+    margin: 50px 0 60px;
 }
-.top_menu_right {
+.top_menu h3 {
+    margin: 0;
     font-size: 30px;
-    line-height: 26px;
+    line-height: 1.2;
     font-weight: 400;
+    color: #484848;
 }
-.top_menu_left {
-    display: flex;
+.top_menu button {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-} 
-.distance {
+    color: #484848;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
     margin-left: 27px;
 }
-.top_menu_left :hover {
+.top_menu_left button:hover {
     color: #FF4B64;
+}
+.middle {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle article {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+}
+.block img {
+    width: 100%;
+    display: block;
+}
+.block_info {
+    border: solid 1px #e6e6e6;
+    border-top: 0;
 }
 .km_wifi {
     display: flex;
@@ -109,13 +130,8 @@ nav a:hover {
     font-weight: 400;
     color: #9A9A9A;
 }
-.middle {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 h6 {
-    margin: 15px;
+    margin: 15px 15px;
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
@@ -141,6 +157,5 @@ h6 {
     color: #ffffff;
 }
 .block {
-    border: 1px solid #ebe2e2;
     margin-bottom: 4vh;
 }
