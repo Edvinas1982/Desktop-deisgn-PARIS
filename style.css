@@ -175,3 +175,11 @@ h6 {
 .bottom_menu a:hover {
     color: #FF4B64;
 }
+/* Mega section */
+
+.atrraction_upper_section {
+    display: flex;
+}
+.atrraction_bottom_section {
+    display: flex;
+}
