@@ -104,12 +104,12 @@ nav a:hover {
 .top_menu_left button:hover {
     color: #FF4B64;
 }
-.middle {
+.middle_menu {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.middle article {
+.middle_menu article {
     width: calc(33.33% - 20px);
     margin-bottom: 30px;
 }
@@ -120,6 +120,7 @@ nav a:hover {
 .block_info {
     border: solid 1px #e6e6e6;
     border-top: 0;
+    padding-top: 15px;
 }
 .km_wifi {
     display: flex;
@@ -131,7 +132,7 @@ nav a:hover {
     color: #9A9A9A;
 }
 h6 {
-    margin: 15px 15px;
+    margin: 0px 15px;
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
@@ -158,4 +159,19 @@ h6 {
 }
 .block {
     margin-bottom: 4vh;
+}
+.bottom_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom_menu a {
+    color: #484848;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.bottom_menu a:hover {
+    color: #FF4B64;
 }
