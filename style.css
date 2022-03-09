@@ -179,7 +179,20 @@ h6 {
 
 .atrraction_upper_section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .atrraction_bottom_section {
     display: flex;
+}
+.attraction_left {
+    width: 31.5%;
+    height: 525px;
+    background-image: url(/img/Eiffel\ Tower.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.attraction_right {
+    width: calc(68.5% - 30px);
 }
