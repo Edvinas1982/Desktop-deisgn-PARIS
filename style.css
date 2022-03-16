@@ -217,17 +217,26 @@ h6 {
     width: 100%;
     height: 13.5vw;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 .forum, .arc, .sacre {
-    width: calc(30% - 15px);
-    justify-content: space-between;
+    width: 31.4%;
 }
 .forum {
-    background-color: aqua;
+    background-image: url(img/Forum\ des\ Halles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .arc {
-    background-color: #FF4B64;
+    background-image: url(img/Arc\ de\ Triomphe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sacre {
-    background-color: lightgreen;
+    background-image: url(img/Sacré\ Coeur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
