@@ -175,58 +175,59 @@ h6 {
 .bottom_menu a:hover {
     color: #FF4B64;
 }
-/* Attraction section */
+/* Mega section */
 
-.att-top {
+.atrraction_upper_section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.att-top-left {
-    width: 31.53%;
-    max-height: 524px;
-    height: 44vw;
-    background-image: url("img/tower.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.att-top-right {
-    width: calc(68.47% - 30px);
-}
-.louvre,
-.notre-dam {
-    max-height: 247px;
-    height: calc(22vw - 15px);
-}
-.louvre {
-    background-image: url("img/louvre.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-bottom: 30px;
 }
-.notre-dam {
-    background-image: url("img/notre-dam.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.att-top-left,
-.louvre,
-.notre-dam {
-    letter-spacing: 0.1em;
+.atrraction_bottom_section {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
+}
+.attraction_left {
+    width: 31.5%;
+    height: 27.3vw;
+    background-image: url(img/Eiffel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.attraction_right {
+    width: calc(68.5% - 30px);
+}
+.louvres, .notre_dame {
+    height: calc(13.65vw - 15px);
+}
+.louvres {
+    background-image: url(img/Louvres.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.notre_dame {
+    background-image: url(img/Notre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .atrraction_bottom_section {
     width: 100%;
-    height: 12.9vw;
-    background-color: #9A9A9A;
+    height: 13.5vw;
+    justify-content: space-between;
+}
+.forum, .arc, .sacre {
+    width: calc(30% - 15px);
+    justify-content: space-between;
+}
+.forum {
+    background-color: aqua;
+}
+.arc {
+    background-color: #FF4B64;
+}
+.sacre {
+    background-color: lightgreen;
 }
