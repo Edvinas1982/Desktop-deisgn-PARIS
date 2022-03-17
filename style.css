@@ -189,16 +189,36 @@ h6 {
 .attraction_left {
     width: 31.5%;
     height: 27.3vw;
+    max-height: 525px;
     background-image: url(img/Eiffel.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.1em;
 }
 .attraction_right {
     width: calc(68.5% - 30px);
 }
 .louvres, .notre_dame {
     height: calc(13.65vw - 15px);
+    max-height: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.1em;
 }
 .louvres {
     background-image: url(img/Louvres.jpg);
@@ -216,11 +236,21 @@ h6 {
 .atrraction_bottom_section {
     width: 100%;
     height: 13.5vw;
+    max-height: 260px;
     justify-content: space-between;
     padding-bottom: 40px;
 }
 .forum, .arc, .sacre {
     width: 31.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.1em;
 }
 .forum {
     background-image: url(img/Forum\ des\ Halles.jpg);
@@ -239,4 +269,32 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* Alfa section */
+
+.all_trip {
+    height: 759px;
+    width: 100%;
+    background-color: #9A9A9A;
+}
+.mini_eiffel {
+    background-image: url(img/mini\ Eiffel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 233px;
+}
+.mini_seine {
+    background-image: url(img/mini\ Seine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 233px;
+}
+.mini_louvres {
+    background-image: url(img/mini\ Louvres.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 233px;
 }
