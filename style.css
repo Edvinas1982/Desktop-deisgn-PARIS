@@ -299,3 +299,13 @@ h4 {
     line-height: 26px;
     font-weight: 400;
 }
+/* Footer section */
+
+.footer {
+    margin-top: 100px;
+}
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
