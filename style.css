@@ -280,29 +280,22 @@ h6 {
 .mini_seine_trip,
 .mini_louvre_trip {
     display: flex;
-}
-.mini_eiffel {
-    background-image: url(img/mini\ Eiffel.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 233px;
-    width: 100px;
-}
-.mini_seine {
-    background-image: url(img/mini\ Seine.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 233px;
-}
-.mini_louvres {
-    background-image: url(img/mini\ Louvres.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 233px;
+    padding-bottom: 30px;
+    padding-right: 5px;
 }
 .trip_info {
     width: 70%;
+    border: solid 1px #e6e6e6;
+    border-left: none;
+    padding-left: 30px;
+}
+h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.trip_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
 }
