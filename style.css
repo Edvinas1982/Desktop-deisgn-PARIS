@@ -309,3 +309,20 @@ h4 {
     justify-content: space-between;
     margin-bottom: 50px;
 }
+.footer_section a {
+    display: flex;
+    color: #484848;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.footer_section h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #484848;
+}
+.footer_section a.email {
+    color: #FF4B64;
+}
